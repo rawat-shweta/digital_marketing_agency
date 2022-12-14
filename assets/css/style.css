@@ -1,0 +1,586 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+
+body{
+	background-color: #f3f4f6;
+}
+
+nav{
+    background-color: #f3f4f6;
+    font-size:20px;
+
+}
+
+nav ul li{
+	padding-left: 50px;
+}
+
+
+
+
+/*....................digital-services-start...............*/
+
+
+.digital-services{
+	padding-top:20px;
+	background-color:#f3f4f6;
+}
+
+
+.digital-services h2{
+	padding-top:25px;
+	word-spacing:5px;
+	font-family:Zen Dots;
+	font-size:40px;
+
+}
+
+.digital-services p{
+	padding-top:20px;
+	word-spacing: 2px;
+	color: #c8c9cd;
+
+}
+
+.digital-services img{
+	width: 100%;
+}
+
+
+/*....................digital-services-end...................*/
+
+
+
+
+
+/*...........................Digion-start....................*/
+
+
+
+.digion{
+	background-color:#f3f4f6;
+	padding-top: 20px;
+}
+
+
+.digion p{
+text-align: center; 
+font-size: 26px;  
+color: #bfc0c2;
+word-spacing:8px;
+
+}
+
+
+/*...........................Digion-end......................*/
+
+
+
+
+
+
+/*....................company-start..........................*/
+
+
+
+.company{
+	background-color:#f3f4f6;
+	padding-top:40px;
+	padding-bottom: 40px;
+}
+
+.company h5{
+	text-align:center;
+	font-weight:bold;
+	font-size:40px;
+	color: #80b1d9;
+/*	padding-top: 20px;*/
+}
+
+.company h2{
+	text-align: center;
+	font-weight: bold;
+	font-size:40px;
+	padding-top:15px;
+	padding-bottom:40px;
+	font-family:Zen Dots;
+}
+
+.company .row .card{
+
+	margin-bottom:20px;
+	margin-top: 10px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	transition-property:all 2s ease-in;
+	transition-duration:0.1s;
+	transition-timing-function:cubic-bezier(.17,.75,.94,.44);
+}
+
+.card:hover{
+	height:300px;
+	width:auto;
+    color: white;
+	background-color:#197bff;
+	transition: width 5s ease-in, height 1s ease-in;
+}
+
+
+
+
+
+/*........................company-end........................*/
+
+
+
+
+/*........................Challenges-start...................*/
+
+
+
+.challenges{
+	background-color:#f3f4f6;
+	padding-top:80px;
+
+}
+
+.challenges h5{
+	font-size: 28px;
+	color:#5989c0;
+	font-weight: bold;
+	padding-left:20px;
+}
+
+.challenges h2{
+	font-size:35px;
+	font-weight: bold;
+	word-spacing: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:20px;
+	font-family:Zen Dots;
+}
+
+.challenges p{
+	font-size:18px;
+	color: #a6acb0;
+	padding-left:20px;
+}
+
+.list ul{
+	display:flex;
+	justify-content:start;
+	list-style-type:none;
+}
+
+
+.list{
+	background-color:whitesmoke;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	transition-property:all 2s ease-in;
+	transition-duration:0.1s;
+	transition-timing-function:cubic-bezier(.17,.75,.94,.44);
+}
+
+
+
+.list:hover{
+	height:150px;
+	width:100%;
+	color:white;
+	background:blue;
+	transition:width 1s ease-in, height 1s ease-in;
+	padding-top:5px;
+	margin-bottom:5px;
+	text-align:center;
+}
+
+.challenges img{
+	height:640px;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left:40px;
+
+
+}
+
+
+
+/*........................Challenges-end.....................*/
+
+
+
+
+/*......................Costumer-start.......................*/
+
+
+.costumer{
+	background-color:#f3f4f6;
+	padding-top:120px;
+	padding-bottom:90px;
+
+}
+
+.costumer h5{
+	text-align:center;
+	font-size:30px;
+	padding-top: 10px;
+/*	text-shadow:1px 2px 1px;*/
+	color:#5d8ec7;
+
+}
+
+.costumer h2{
+	text-align: center;
+	font-weight: bold;
+	font-size:35px;
+	padding-top:10px;
+	word-spacing:5px;
+	text-shadow:1px 1px 1px;
+	font-family:Zen dots;
+
+}
+
+.client-1 ul{
+	display:flex;
+	list-style-type: none;
+	justify-content:center;
+	padding-top:90px;
+
+}
+
+.client-1 img{
+	height:150px;
+	padding-top:5px;
+
+}
+
+
+.client-2 ul{
+	display:flex;
+	list-style-type:none;
+	justify-content:flex-end;
+	padding-top: 20px;
+}
+
+.client-2 p{
+	padding-top:15px;
+	padding-left: 20px;
+
+}
+
+
+.client-2 h5{
+	color:black;
+	text-align:left;
+	padding-left:15px;
+	font-weight: bold;
+	font-size:20px;
+	text-shadow: none;
+
+}
+
+.client-2 h6{
+	color:#636469;
+	padding-left:15px;
+	
+}
+
+
+
+/*........................Costumer-end......................*/
+
+
+
+/*........................Newsletter-start...................*/
+
+.news{
+	background-color:#f3f4f6;
+	padding-top: 50px;
+	padding-bottom:60px;
+
+}
+
+.news h5{
+	text-align:center;
+	font-weight:bold;
+	font-size:30px;
+	color:#5d8ec7;
+}
+
+.news h2{
+	text-align:center;
+	font-weight:bold;
+	font-size:40px;
+	padding-top:10px;
+}
+
+.news-image{
+		background-image: url('https://www.yourthoughtpartner.com/hubfs/Blog_images/How-to-improve-the-employer-employee-connection-The-Grossman-Group.png');
+		max-width:100%;
+		min-height:100vh;
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+		object-fit:cover;
+		display:flex;
+		align-items:center;
+	    margin-top:50px;
+	}
+
+
+.form-1{
+	display: flex;
+	justify-content:center;
+	background-color: blue;
+    height:200px;
+	width:auto;
+	padding:60px;
+	margin-top: -210px;
+    align-items: center;
+
+}
+
+.form-2{
+	background-color:#f3f4f6;
+}
+
+
+.boxx-1{
+    margin-top:20px;
+	height:400px;
+	width:auto;
+	background-color:blue;
+
+}
+
+.boxx-1 h4{
+	color: white;
+	font-weight:bold;
+	font-size:40px;
+	text-align: center;
+	padding-top:50px;
+	font-family: Zen dots;
+	
+}
+.boxx-2{
+	position: absolute;
+	z-index: 3;
+	background-color: white;
+	height:350px;
+	width:70%;
+	left:75;
+	top:160;
+	padding: 20px;
+}
+
+.boxx-2 img{
+	height:350px;
+	width: auto;
+	padding-bottom:60px;
+	
+}
+
+
+.boxx-3{
+	width:auto;
+	background-color:#f3f4f6;
+	padding-top: 50px;
+}
+
+.boxx-3 .contact{
+	margin-top:20px;
+	padding-bottom: 2px;
+}
+
+
+
+.name{
+	border-top-style: hidden;
+	border-left-style: hidden;
+	border-right-style: hidden;
+	border-bottom-style: groove #e0e1e3;
+	background-color: #f3f4f6;
+	padding-top:20px;
+	padding-bottom:10px;
+    font-size:20px;
+}
+
+
+.btnn{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-top:32px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/*........................Newsletter-end.....................*/
+
+
+
+/*.......................Footer-start......................*/
+
+.footer{
+	background-color:#f3f4f6;
+	padding-top:120px;
+	padding-bottom:90px;
+}
+
+
+.footer ul{
+	 display: flex;
+	justify-content:flex-start;
+	list-style-type: none;
+}
+
+.boxa h2{
+	font-family:lemon;
+	font-size:30px;
+	color:#5384a7;
+
+}
+
+.boxa p{
+	padding-top: 5px;
+	font-size:20px;
+	font-family:changa;
+	 color:#adaeb2;
+}
+
+.boxa li{
+	padding-right:15px;
+
+}
+.boxa li i{
+	padding-top: 20px;
+	padding-right:5px;
+}
+
+.boxb h4{
+	font-family:changa;
+	font-size:30px;
+	color:#5384a7;
+}
+
+.boxb ul{
+	display: grid;
+	justify-content: start;
+}
+
+.boxb li{
+	padding-top:15px;
+	font-size:20px;
+	font-family:changa;
+	 color:#adaeb2;
+	 font-weight: bold;
+}
+
+.boxc h4{
+	font-family:changa;
+	font-size:30px;
+	color:#5384a7;
+
+}
+
+.boxc ul{
+	display: grid;
+	justify-content:start;
+}
+
+.boxc li{
+	padding-top:15px;
+	font-size:20px;
+	font-family: changa;
+	color:#adaeb2;
+	font-weight: bold;
+}
+
+.boxd h4{
+	font-family:changa;
+	font-size:30px;
+	color:#5384a7;
+}
+
+.boxd ul{
+	display:grid;
+	justify-content:start;
+}
+
+.boxd ul li {
+	padding-top: 20px;
+	font-weight: bold;
+	font-family: changa;
+	font-size: 20px;
+
+}
+
+.boxd .bton{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left:30px;
+	padding-right:150px;
+	background-color: #f7f7f7;
+	color: #adaeb2;
+	font-family: changa;
+	font-size:20px;
+	border-top-style: hidden;
+	border-bottom-style: hidden;
+	border-left-style: hidden;
+	border-right-style: hidden;
+}
+
+.boxd .bttn{
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:40px;
+	padding-right:40px;
+	margin-top: 20px;
+	font-weight: bold;
+	font-family:changa;
+	font-size: 25px;
+	text-shadow: 2px ;
+}
+
+.inline{
+	height:50px;
+	width:400px;
+	padding-top:90px;
+	gap:50px;
+	
+}
+
+.inline ul{
+	display: flex;
+	justify-content:space-between;
+	list-style-type: none;
+	
+}
+
+
+.inline  li {
+	padding-right:10px;
+    padding-top:10px;
+    color:#adaeb2;
+    font-family:changa;
+
+}
